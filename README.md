@@ -1,0 +1,1 @@
+# SEVERSTALCONTEST#1_KorchaginArtyom
