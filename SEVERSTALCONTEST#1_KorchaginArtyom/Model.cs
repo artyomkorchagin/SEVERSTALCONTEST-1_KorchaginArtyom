@@ -14,6 +14,14 @@ namespace SEVERSTALCONTEST_1_KorchaginArtyom
         public Model()
         {
             // xml файл, в котором хранится вся информация о заметках
+            if (!File.Exists(@"notes.xml"))
+            {
+                XmlWriter writer = XmlWriter.Create(@"notes.xml");
+                writer.WriteStartElement("exitinfo");
+                writer.WriteEndElement();
+                writer.Flush();
+                writer.Close();
+            }
             xNotes.Load(@"notes.xml");
         }
 
