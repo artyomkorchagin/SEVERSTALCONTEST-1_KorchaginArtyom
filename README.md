@@ -12,4 +12,4 @@
 
 Также есть возможность делать текст жирным или курсивным, но данное изменение не сохраняется между сеансами
 
-![alt text](https://imgur.com/a/AodFPf9)
+![alt text]([https://imgur.com/a/AodFPf9](https://i.imgur.com/j23wF0h.png)https://i.imgur.com/j23wF0h.png)
